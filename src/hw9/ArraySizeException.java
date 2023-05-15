@@ -1,6 +1,7 @@
 package hw9;
 
-public class ArraySizeException extends Throwable{
-    public ArraySizeException ( String s ){
+public class ArraySizeException extends RuntimeException {
+    public ArraySizeException (String s) {
+        super (s);
     }
 }
